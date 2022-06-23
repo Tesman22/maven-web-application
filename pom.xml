@@ -97,13 +97,13 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>Apple-repo-RELEASE</name>
-	      <url>http://34.219.98.175:8081/repository/maven-releases/</url>
+	      <url>http://35.88.94.20:8081/repository/Apple-repo-RELEASE/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Apple-repo</name>
-	      <url>http://34.219.98.175:8081/repository/Maven-remote-repo/</url>
+	      <url>http://35.88.94.20:8081/repository/Apple-repo/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
