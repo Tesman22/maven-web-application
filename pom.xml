@@ -96,13 +96,13 @@
 	<distributionManagement>
 	    <repository>
 	      <id>nexus</id>
-	      <name>Landmark Technologies Releases Nexus Repository</name>
+	      <name>Apple-repo-RELEASE</name>
 	      <url>http://34.219.98.175:8081/repository/Apple-repo-RELEASE/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
-	      <name>Landmark Technologies Snapshot Nexus Repository </name>
+	      <name>Apple-repo</name>
 	      <url>http://34.219.98.175:8081/repository/Apple-repo/</url>
 	    </snapshotRepository>
 	    
