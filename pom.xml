@@ -97,13 +97,13 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>Apple-repo-RELEASE</name>
-	      <url>http://34.219.98.175:8081/repository/paypal-releases/</url>
+	      <url>http://34.219.98.175:8081/repository/maven-releases/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Apple-repo</name>
-	      <url>http://34.219.98.175:8081/repository/Apple-repo/</url>
+	      <url>http://34.219.98.175:8081/repository/Maven-remote-repo/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
