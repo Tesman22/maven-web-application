@@ -109,7 +109,7 @@
 	</distributionManagement>
 	
 	<build>
-		<finalName>chase-app</finalName>
+		<finalName>chase-bankapp</finalName>
 		
 		<plugins>
 			<plugin>
