@@ -109,7 +109,7 @@
 	</distributionManagement>
 	
 	<build>
-		<finalName>Apple-phone</finalName>
+		<finalName>chase-app</finalName>
 		
 		<plugins>
 			<plugin>
