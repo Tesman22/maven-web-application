@@ -96,20 +96,20 @@
 	<distributionManagement>
 	    <repository>
 	      <id>nexus</id>
-	      <name>Apple-repo-RELEASE</name>
-	      <url>http:http://54.201.147.65:8081/repository/Apple-repo-RELEASE/</url>
+	      <name>paypal-releases</name>
+	      <url>http://54.201.147.65:8081/repository/paypal-releases/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
-	      <name>Apple-repo</name>
-	      <url>http://54.201.147.65:8081/repository/Apple-repo/</url>
+	      <name>paypal-snapshot</name>
+	      <url>http://54.201.147.65:8081/repository/paypal-snapshot/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
 	
 	<build>
-		<finalName>chase-bankapp</finalName>
+		<finalName>paypal-bankapp</finalName>
 		
 		<plugins>
 			<plugin>
