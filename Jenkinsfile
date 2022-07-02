@@ -1,6 +1,6 @@
 node
  {
-  def mvnHome = tool name: "Maven3.8.6"
+  def mavenHome = tool name: "Maven3.8.6"
   stage("CheckOutCodeGit")
   {
    git credentialsId: 'Github', url: 'https://github.com/Tesman22/maven-web-application.git'
