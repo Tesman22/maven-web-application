@@ -18,14 +18,13 @@ node
  {
  sh "${mavenHome}/bin/mvn deploy"
  }
- 
+ */
   stage("DeployAppTomcat")
  {
-  sshagent(['423b5b58-c0a3-42aa-af6e-f0affe1bad0c']) {
-    sh "scp -o StrictHostKeyChecking=no target/maven-web-application.war  ec2-user@15.206.91.239:/opt/apache-tomcat-9.0.34/webapps/" 
+  deploy adapters: [tomcat9(credentialsId: '34364843-039b-4bc6-9fbe-65b1b20b7954', path: '', url: 'http://35.87.118.105:8080/')], contextPath: null, war: 'target/*war' 
   }
  }
- 
+ /*
  stage('EmailNotification')
  {
  mail bcc: 'mylandmarktech@gmail.com', body: '''Build is over
