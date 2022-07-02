@@ -23,7 +23,6 @@ node
  {
   deploy adapters: [tomcat9(credentialsId: '1', path: '', url: 'http://35.87.118.105:8080/')], contextPath: null, war: 'target/*war' 
   }
- }
  /*
  stage('EmailNotification')
  {
