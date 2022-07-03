@@ -22,7 +22,7 @@ options{
    stage('CheckoutCode')
    {
      steps{
-	 git branch: 'development', credentialsId: '8e348aa2-9531-4dbe-863d-1adb64897470', url: 'https://github.com/LandmakTechnology/maven-web-application.git'
+	 git branch: 'Jenkins-jobs', credentialsId: 'Github', url: 'https://github.com/Tesman22/maven-web-application.git'
 	 }
    }
    
