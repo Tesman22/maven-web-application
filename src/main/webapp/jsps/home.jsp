@@ -33,7 +33,7 @@ out.println("Server Host Name :: "+inetAddress.getHostName());
 		<img src="images/mylandmarklogo.png" alt="" width="150">
 	</span>
 	<span style="font-weight: bold;">
-                Landmark Tech, 
+                Landmark Techn, 
 		Toronto, Ontario, Canada
 		+1 437 215 2483,
 		mylandmarktech@gmail.com
